@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Nivram"
+message: "If you use Nivram in research or engineering work, please cite it."
+type: software
+authors:
+  - family-names: "Dyke"
+    given-names: "Dave"
+repository-code: "https://github.com/aigora-de/nivram"
+license: Apache-2.0
