@@ -1,0 +1,39 @@
+# Nivram — .gitignore
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Experimental outputs (generated, not source-controlled)
+outputs/
+runs/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.log
