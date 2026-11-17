@@ -33,6 +33,7 @@ Experiments require **real LLM-backed agents**, not Python proxies for their cog
 - `docs/project-instructions-full.md` — extended reference, read when relevant.
 - `context/index.md` — **routing index**, not a file to exhaustively import.
 - `context/state.md` — concise project state; verify volatile claims against live GitHub.
+- `personas/README.md` — optional model-neutral development/research reviewers; select by task, never assume independent agents.
 
 Read only relevant sources; surface disagreements. Memory cannot override evidence.
 
