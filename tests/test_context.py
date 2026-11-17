@@ -39,7 +39,7 @@ class TestContext(unittest.TestCase):
 
     def test_empty_provenance_and_invalid_date(self):
         self.fail_after("context/memory/principles/empirical-first.md",
-                        "source:\n  - docs/02-experimental-programme.md", "source:")
+                        "source:\n  - docs/02-experimental-programme.md\n  - docs/03-research-questions-and-hypotheses.md", "source:")
 
     def test_bad_date(self):
         self.fail_after("context/memory/principles/empirical-first.md",
