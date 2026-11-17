@@ -7,8 +7,7 @@ triggers:
   - agent implementation
   - experimental substrate
 source:
-  - docs/02-experimental-programme.md
-  - docs/03-research-questions-and-hypotheses.md
+  - AGENTS.md
 created: 2026-11-17
 reviewed: 2026-11-17
 ---
