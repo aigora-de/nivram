@@ -37,6 +37,24 @@ Experiments require **real LLM-backed agents**, not Python proxies for their cog
 
 Read only relevant sources; surface disagreements. Memory cannot override evidence.
 
+## Authority and retrieval
+
+Use authority **by concern**, not one global precedence: this file governs
+coding-agent conduct; `docs/03-research-questions-and-hypotheses.md` owns
+hypothesis status; `docs/02-experimental-programme.md` owns protocols;
+`context/README.md` governs shared-memory lifecycle; `personas/` defines
+reviewer remits; live GitHub/files govern current implementation status.
+Extended guidance and memories supplement these, never silently supersede them.
+Raise contradictions instead of picking a convenient source.
+
+For experiment design, individuality, cross-disciplinary analogy, agent
+implementation, resumed work or systemic-risk analysis, consult
+`context/index.md` and retrieve matching active topics **on demand**.
+Routing is instruction-guided, not mechanically guaranteed; report unavailable
+sources or connectivity rather than asserting unverified state. For reviews,
+consult `personas/README.md` and convene only relevant roles. Report portable
+repo-relative paths when citing local files.
+
 ## Working with GitHub and code
 
 Check live files/issues before asserting status. Separate unit-tested components from live-proven integrations. Specify falsifiers, controls and limitations; preserve reproducibility.
@@ -45,7 +63,7 @@ Prefer reviewed branches/PRs, not edits to `main`. Present substantial designs/i
 
 ## Context and memory contract
 
-Tracked `context/` is canonical shared memory. Claude/Codex local memories are non-authoritative caches. Route on demand; public promotion requires provenance, privacy and IP review.
+Tracked `context/` is canonical shared memory. Claude/Codex local memories are non-authoritative caches. Route on demand; public promotion requires provenance, privacy and IP review **before any push to a public ref**.
 
 Keep detail in sources, lessons in topics and status in live trackers. Archived memories are not instructions. See `context/README.md`.
 
